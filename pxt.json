@@ -1,0 +1,19 @@
+{
+    "name": "arcade01",
+    "dependencies": {
+        "device": "*",
+        "arcade01": "github:JeanneYee/arcade01",
+        "corgio": "*"
+    },
+    "description": "",
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tutorial01.md"
+    ],
+    "preferredEditor": "tsprj",
+    "testFiles": [
+        "test.ts"
+    ]
+}
