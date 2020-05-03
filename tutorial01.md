@@ -1,3 +1,8 @@
+# Tutorials
+
+Here are some cool tutorials to get you started with your Gizmo Board!
+
+## Basic
 ```template
 scene.setBackgroundColor(1)
 let mySprite = sprites.create(img`
