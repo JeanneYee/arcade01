@@ -18,21 +18,21 @@ let Egg: Sprite = null
 let Dino: Sprite = null
 scene.setBackgroundColor(1)
 Dino = sprites.create(img`
-. . . . . . f f f f f f f f f . 
-. . . . 4 f 7 7 7 7 7 7 7 7 7 f 
-. . . . 4 f 7 7 7 1 f 1 7 7 7 f 
-. . . . f f 7 7 7 1 f 1 7 7 7 f 
-. . . . 4 f 7 7 7 1 1 1 7 7 7 f 
-. . . 4 4 f 7 7 f 7 7 7 7 7 7 f 
-. . . f f 7 7 7 f f f f f f f . 
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f f f f f f . . 
+. . . . 4 f 7 7 7 7 7 7 7 7 f . 
+. . . . 4 f 7 7 7 1 f 1 7 7 f . 
+. . . . f f 7 7 7 1 f 1 7 7 f . 
+. . . . 4 f 7 7 7 1 1 1 7 7 f . 
+. . . 4 4 f 7 7 f 7 7 7 7 7 f . 
+. . . f f 7 7 7 f f f f f f . . 
 . . . 4 f 7 7 7 7 7 7 f . . . . 
 . . 4 4 f 7 f 7 7 7 7 7 7 f . . 
 . . f f 7 7 f 7 7 7 7 7 7 f . . 
 . 4 4 f 7 7 7 7 d d 7 f . . . . 
 4 f f 7 7 7 7 d d d 7 f . . . . 
 f 7 7 7 7 7 7 d d d 7 f . . . . 
-f f f f f 7 7 d d d 7 f . . . . 
-. . . . f 7 7 f f d 7 f . . . . 
+f f f f f 7 7 f f d 7 f . . . . 
 . . . . f f f . . f f f . . . . 
 `, SpriteKind.Player)
 controller.moveSprite(Dino)
